@@ -13,7 +13,7 @@ import javax.persistence.Id;
 
 @Entity
 @Data @AllArgsConstructor @NoArgsConstructor @Builder
-public class InventoryService {
+public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
