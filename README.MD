@@ -38,5 +38,21 @@ Mais c'est une solution trés rigide si on a des dizaines de services.
 C'est solution est trés minimaliste: 
 <img src="screens/dynamicRouting.png">
 On crée alors la discovery qui va stocker chaque instance de micro-service.
-L'applica.
+<img src="screens/eureka.png">
+Aprés que la gateway a rassemblé tous les micro-services on peut la sortie des API RESTFUL pour customer, product et billing :
+
+<h4>API REST CUSTOMERS</h4>
+<img src="screens/routedynamicCustomers.png">
+
+<h4>API REST INVENTORY</h4>
+<img src="screens/routedynamicInventoryServices.png">
+
+Le microservice billing-service étant intégré bien aprés et ayant une relation entre les deux services cités présédemment, nécessite une API qui pourra établir la communication entre eux d'aprés l'architecture suivant :
+<img src="screens/FeignOpen.png">
+
+Cette API est @Feign. Elle permet la communication entre les différentes entités des bases de données.
+
+
+
+
 
