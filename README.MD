@@ -53,6 +53,8 @@ Le microservice billing-service étant intégré bien aprés et ayant une relati
 Cette API est @Feign. Elle permet la communication entre les différentes entités des bases de données.
 
 
+<h4>API REST BILLING</h4>
+<img src="screens/gatewayFullBill.png">
 
 
 
