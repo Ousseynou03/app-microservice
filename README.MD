@@ -29,3 +29,14 @@ Travail à faire :
 <h2>Archtecture Spring Cloud de l'application</h2>
 <img src="screens/architecSpringCloud.png">
 
+L'un des enjeux majeurs du concept de microservice est la communication entre les différents microservices.
+La Gateway communique directement avec Eureka qui enregistre tous les micro-services que regroupe l'application.
+Il serai aussi possible pour la gateway d'effectuer une configuration statique pour enregistrer tous les srvices en son sein.
+comme on peut l'appercevoir ci-aprés : 
+<img src="screens/staticRouting".png>
+Mais c'est une solution trés rigide si on a des dizaines de services.
+C'est solution est trés minimaliste: 
+<img src="screens/dynamicRouting.png">
+On crée alors la discovery qui va stocker chaque instance de micro-service.
+L'applica.
+
