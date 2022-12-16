@@ -63,6 +63,7 @@ public class BillingServiceApplication {
     }
 
     //Désactiver du CORS
+    /*
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
@@ -78,5 +79,7 @@ public class BillingServiceApplication {
         urlBasedCorsConfigurationSource.registerCorsConfiguration("/**", corsConfiguration);
         return new CorsFilter(urlBasedCorsConfigurationSource);
     }
+
+     */
 
 }
