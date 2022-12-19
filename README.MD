@@ -56,7 +56,7 @@ Cette API est @Feign. Elle permet la communication entre les diff√©rentes entit√
 <h4>API REST BILLING</h4>
 <img src="screens/gatewayFullBill.png">
 
-Par ici<a href="https://github.com/Ousseynou03/uiMicroserviceAppEcomm.git"></a> pour l'illustration architecturale et la mise en place du place angular
 
+Par <a href="https://github.com/Ousseynou03/uiMicroserviceAppEcomm.git">ICI</a> pour l'illustration architecturale et la mise en place du client angular. 
 
 
